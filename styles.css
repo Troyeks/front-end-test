@@ -41,6 +41,24 @@ a{
 img{
   width: auto;
 }
+input{
+  padding: 0 15px;
+  border: 2px solid #E9E9E9;
+  border-radius: 5px;
+  font-family: Poppins-Semibold;
+  font-size: 14px;
+  width: 300px;
+  height: 50px;
+}
+select{
+  border: 2px solid #E9E9E9;
+  border-radius: 5px;
+  color: #888888;
+  font-family: Poppins-Semibold;
+  font-size: 14px;
+  height: 55px;
+  width: 300px;
+}
 .tcp-main-cont{
   padding: 0 250px;
 }
@@ -104,19 +122,19 @@ button{
   margin-bottom: 15px;
 }
 
-/* Section Component - Center*/
-.tcp-section-center{
+/* Section Component - Heroes*/
+.tcp-section-heroes{
   padding: 100px 0;
   text-align: center;
 }
-.tcp-section-center .title{
+.tcp-section-heroes .title{
   width: auto;
 }
-.tcp-section-center h1{
+.tcp-section-heroes h1{
   color: #F45E43;
   margin-bottom: 50px;
 }
-.tcp-section-center h2{
+.tcp-section-heroes h2{
   font-size: 20px;
   font-family: Poppins-Regular;
   color: #333333;
@@ -144,24 +162,24 @@ button{
   width: 250px;
 }
 
-/* Section Component - Left*/
-.tcp-section-left{
+/* Section Component - Meows*/
+.tcp-section-meows{
   background-image: url(/images/bg_hallofmeows.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding: 100px 0;
 }
-.tcp-section-left h1{
+.tcp-section-meows h1{
   color: #160D48;
   margin-bottom: 40px;
 }
-.tcp-section-left h2{
+.tcp-section-meows h2{
   color: #392C9F;
   font-family: Poppins-Regular;
   margin-bottom: 30px;
 }
-.tcp-section-left .featured-line1{
+.tcp-section-meows .featured-line1{
   margin-bottom: 30px;
 }
 #tcp-featured{
@@ -172,6 +190,87 @@ button{
   border-radius: 5px;
   width: 100px;
   margin-right: 15px;
+}
+
+/* Section Component - Adopting */
+.tcp-section-adopting{
+  background-image: url(/images/bg_adopting101.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding: 100px 0 250px 0;
+}
+.tcp-section-adopting h2{
+  font-family: Poppins-Regular;
+  color: #B8B2DA;
+  font-size: 20px;
+}
+.tcp-section-adopting ul li{
+  list-style: none;
+  background-image: url(/images/check-circle.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px;
+  margin-bottom: 10px;
+}
+.tcp-section-adopting .list-title{
+  margin-left: 40px;
+  text-transform: uppercase;
+  font-family: Poppins-Semibold;
+  color: #FFB403;
+  font-size: 20px;
+}
+.tcp-section-adopting .list-content{
+  margin-left: 20px;
+  color: #B8B2DA;
+}
+.tcp-section-adopting .title-group{
+  margin-bottom: 30px;
+}
+.tcp-section-adopting .list-group{
+  margin-left: -40px;
+  margin-bottom: 40px;
+}
+.tcp-section-adopting .tcp-main-cont{
+  padding: 0 200px 0 400px;
+}
+
+/* Section Component - Appointment */
+.tcp-section-appointment{
+  background-image: url(/images/bg_appointment.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding: 100px 0 400px 0;
+}
+.tcp-section-appointment .title-group{
+  margin-bottom: 30px;
+}
+.tcp-section-appointment .form-group{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.tcp-section-appointment h1{
+  font-family: Poppins-Semibold;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.tcp-section-appointment h2{
+  color: #FFCEA3;
+  font-family: Poppins-Regular;
+  font-size: 20px;
+}
+.tcp-section-appointment input{
+  height: 40px;
+  width: 250px;
+}
+.tcp-section-appointment select{
+  height: 43px;
+  width: 250px;
+}
+.tcp-section-appointment .tcp-main-cont{
+  padding: 0 200px 0 400px;
 }
 
 /* Footer */
@@ -186,9 +285,33 @@ button{
   background-color: #392C9F;
   height: 2px;
   border: none;
-  margin-bottom: 40px;
+  margin: 40px 0;
 }
 #tcp-section-footer .links-cont{
   display: flex;
   justify-content: space-between;
+}
+#tcp-section-footer span, a{
+  color: #3A2B9F;
+}
+#tcp-section-footer a{
+  font-size: 16px;
+  margin-left: 50px;
+  font-family: Poppins-Semibold;
+}
+#tcp-section-footer h2{
+  color: #FFB305;
+  font-size: 23px;
+  margin-top: 10px;
+}
+#tcp-section-footer .form-group-cont{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#tcp-section-footer .form-group{
+  display: flex;
+}
+#tcp-section-footer form{
+  margin-right: 20px;
 }
